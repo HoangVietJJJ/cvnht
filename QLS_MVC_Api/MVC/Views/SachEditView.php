@@ -17,7 +17,7 @@
                 <input type="text" id="myidsach" name="idsach" class="form-control" placeholder="Nhập mã trò chơi" value="<?php echo $row['idsach'] ?>" disabled>
                 <label for="mytensach">Tên trò chơi</label>
                 <input type="text" id="mytensach" name="tensach" class="form-control" placeholder="Nhập tên trò chơi" value="<?php echo $row['tensach'] ?>">
-                <label for="mytheloai">Dịch vụ</label>
+                <label for="mytheloai">khuyến mãi</label>
                 <select id="mytheloai" name="theloai" class="form-control">
                     <?php
                     foreach ($data['theloai'] as $theloaiRow) {

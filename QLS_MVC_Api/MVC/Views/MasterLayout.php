@@ -112,10 +112,10 @@
 						<li><a href="http://localhost/QLS_MVC_API/User">Thêm user</a></li>
 						<li><a href="http://localhost/QLS_MVC_API/Danhsachuser">Danh sách user</a></li>
 					</ul>
-				</li><li><a href="http://localhost/QLS_MVC_API/Home">Quản lý dịch vụ</a>
+				</li><li><a href="http://localhost/QLS_MVC_API/Home">khuyến mãi</a>
 					<ul>
-						<li><a href="http://localhost/QLS_MVC_API/Theloai">Thêm dịch vụ</a></li>
-						<li><a href="http://localhost/QLS_MVC_API/Danhsachtheloai">Danh sách dịch vụ</a></li>
+						<li><a href="http://localhost/QLS_MVC_API/Theloai">Thêm khuyến mãi</a></li>
+						<li><a href="http://localhost/QLS_MVC_API/Danhsachtheloai">Danh sách khuyến mãi</a></li>
 					</ul>
 				</li>
 				<li><a href="http://localhost/QLS_MVC_API/Home">Quản lý vé</a>

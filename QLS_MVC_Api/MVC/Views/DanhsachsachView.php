@@ -8,9 +8,9 @@
             <input type="text" name="idsach" class="form-control" placeholder="Nhập mã trò chơi" value="<?php if (isset($data['idsach'])) echo $data['idsach']; ?>">
             <label>Tên trò chơi</label>
             <input type="text" name="tensach" class="form-control" placeholder="Nhập tên trò chơi" value="<?php if (isset($data['tensach'])) echo $data['tensach']; ?>">
-            <label>Chọn Thể loại</label>
+            <label>Khuyến mãi</label>
             <select name="theloai" class="form-control">
-                <option value="">--Dịch vụ--</option>
+                <option value="">--Khuyến mãi--</option>
                 <?php
                 foreach ($data['theloai'] as $row) {
                     $selected = ($row['idtheloai'] == $idtheloai) ? 'selected' : '';
@@ -39,7 +39,7 @@
                 <th>STT</th>
                 <th>Mã trò chơi</th>
                 <th>Tên trò chơi</th>
-                <th>Dịch vụ</th>
+                <th>Khuyến mãi</th>
                 <th>Số lượng</th>
                 <th>Giá</th>
                 <th>Xóa</th>

@@ -4,9 +4,9 @@
     <form method="post" action="http://localhost/QLS_MVC_API/Danhsachtheloai/timkiemtheloai">
         <!-- Vertical -->
         <div class="form-group">
-            <label>ID dịch vụ</label>
+            <label>ID khuyến mãi</label>
             <input type="text" name="idtheloai" class="form-control" placeholder="Nhập id" value="<?php if (isset($data['idtheloai'])) echo $data['idtheloai']; ?>">
-            <label>Tên dịch vụ</label>
+            <label>Tên khuyến mãi</label>
             <input type="text" name="tentheloai" class="form-control" placeholder="Nhập tên" value="<?php if (isset($data['tentheloai'])) echo $data['tentheloai']; ?>">
             <br>
             <div style="text-align: center;">
@@ -28,8 +28,8 @@
         <table class="table table-bordered table-striped">
             <thead style="background-color: darkkhaki">
                 <th>STT</th>
-                <th>ID dịch vụ</th>
-                <th>Tên dịch vụ</th>
+                <th>ID khuyến mãi</th>
+                <th>Tên khuyến mãi</th>
                 <th>Xóa</th>
                 <th>Sửa</th>
             </thead>

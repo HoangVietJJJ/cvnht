@@ -1,5 +1,5 @@
 <div class="container-fluid mt-3">
-    <h2 style="text-align: center;color: blue;">Cập nhật thông tin sách</h2>
+    <h2 style="text-align: center;color: blue;">Cập nhật thông tin user</h2>
     <h6 style="text-align: center;color: red;">
         <?php
         if (isset($data['result'])) {

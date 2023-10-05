@@ -17,7 +17,7 @@
             <div style="color: red;" id="thongbao"></div>
             <label for="mytensach">Tên trò chơi</label>
             <input type="text" id="mytensach" name="tensach" class="form-control" placeholder="Nhập tên trò chơi">
-            <label for="mytheloai">Dịch vụ</label>
+            <label for="mytheloai">khuyến mãi</label>
             <select id="mytheloai" name="theloai" class="form-control">
                 <?php
                 foreach ($data['theloai'] as $theloai) {
@@ -25,7 +25,7 @@
                 }
                 ?>
             </select>
-            <label for="mysoluong">Sô lượng</label>
+            <label for="mysoluong">Số lượng</label>
             <input type="text" id="mysoluong" name="soluong" class="form-control" placeholder="Nhập số lượng">
             <label for="mygia">Giá</label>
             <input type="text" id="mygia" name="gia" class="form-control" placeholder="Nhập giá">
