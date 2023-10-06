@@ -15,7 +15,7 @@
         <!-- Vertical -->
         <div class="form-group" style="height: 400px;">
             <div style="color: red;" id="thongbao"></div>
-            <label for="mytaikhoan">Tài khoản</label>
+            <label for="mytaikhoan">Ho ten</label>
             <input type="text" id="mytaikhoan" name="taikhoan" class="form-control" placeholder="Nhập tài khoản">
             <label for="mymatkhau">Mật khẩu</label>
             <input type="password" id="mymatkhau" name="matkhau" class="form-control" placeholder="Nhập mật khẩu">
