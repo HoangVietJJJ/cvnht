@@ -1,5 +1,5 @@
 <div class="container-fluid mt-3">
-    <h2 style="text-align: center;color: blue;">Cập nhật thông tin</h2>
+    <h2 style="text-align: center;color: blue;">nguyen ba huan</h2>
     <h6 style="text-align: center;color: red;">
         <?php
         if (isset($data['result'])) {
@@ -21,7 +21,7 @@
             <label>ID</label>
             <input type="text" name="iddonhang" class="form-control"  value="<?php echo $row['iddonhang'] ?>" disabled>
                 
-            <label for="mymasach">Chọn trò chơi</label>
+            <label for="mymasach">trò chơi</label>
             <select for="mymasach" name="masach" class="form-control">
             <?php
                     foreach ($data['masach'] as $msRow) {
